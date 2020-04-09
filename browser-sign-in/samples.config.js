@@ -12,10 +12,10 @@
  
 export default {
   oidc: {
-    clientId: '{clientId}',
-    redirectUri: '{redirectUri}',
-    endSessionRedirectUri: '{endSessionRedirectUri}',
-    discoveryUri: 'https://{youOktaOrg}.okta.com/',
+    clientId: '0oa6r75w8jeX7mzKM2p7',
+    redirectUri: 'com.okta.dragos:/',
+    endSessionRedirectUri: 'com.okta.dragos:/',
+    discoveryUri: 'https://dragos.okta.com',
     scopes: ["openid", "profile", "offline_access"],
     requireHardwareBackedKeyStore: false,
   }
